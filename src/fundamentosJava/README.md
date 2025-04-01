@@ -67,10 +67,11 @@ public class EstruturaBasica {
 Se quisermos **usar uma classe de outro pacote**, precisamos **importá-la**.
 
 #### 📝 Exemplo: Importando uma classe de outro pacote
+
 ```java
 package fundamentosJava;
 
-import tiposPrimitivos.TiposPrimitivos; // Importando uma classe de outro pacote
+import fundamentosJava.tiposPrimitivos.TiposPrimitivos; // Importando uma classe de outro pacote
 
 public class TesteImport {
     public static void main(String[] args) {
@@ -100,7 +101,7 @@ learning-java/
 │   │   ├── README.md          ✅ (Explicação sobre conceitos básicos)
 │   │   ├── EstruturaBasica.java
 │   │   ├── TesteImport.java
-│   ├── tiposPrimitivos/
+│   ├── fundamentosJava.tiposPrimitivos/
 │   ├── operadoresAritmeticos/
 │
 │── README.md  ✅ (Guia geral do projeto)

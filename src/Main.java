@@ -1,4 +1,4 @@
-import tiposPrimitivos.TiposPrimitivos;
+import fundamentosJava.tiposPrimitivos.TiposPrimitivos;
 
 public class Main {
     public static void main(String[] args) {
