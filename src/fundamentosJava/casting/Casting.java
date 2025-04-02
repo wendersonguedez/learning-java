@@ -31,10 +31,22 @@ public class Casting {
         String numeroInteiroParaString = Integer.toString(numeroInteiro); // Usando Integer.toString()
         String numeroInteiroParaString2 = String.valueOf(numeroInteiro); // Alternativa usando String.valueOf()
 
-        System.out.println(numeroInteiroParaString); // Saída: "10"
-        System.out.println(numeroInteiroParaString2); // Saída: "10"
+        // System.out.println(numeroInteiroParaString); // Saída: "10"
+        // System.out.println(numeroInteiroParaString2); // Saída: "10"
 
         System.out.println("Número inteiro para String: " + numeroInteiroParaString);
+
+        /**
+         * Casting de String para inteiro.
+         * Assim como no exemplo acima, podemos utilizar a classe Integer e seu método .parseInt() ou .valueOf(),
+         * para converter String para inteiro.
+         */
+        String numeroString = "123456";
+        int numeroInteger = Integer.parseInt(numeroString);
+        int numeroInteger2 = Integer.valueOf(numeroString);
+
+        System.out.println("String para número inteiro (parseInt()): " + numeroInteger);
+        System.out.println("String para número inteiro (valueOf()): " + numeroInteger2);
 
         /**
          * Casting em operações matemáticas.
