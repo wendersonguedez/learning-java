@@ -5,7 +5,7 @@ import java.util.Arrays;
 public class Casting {
     public static void main(String[] args) {
         /**
-         * Casting implítico, fazendo a conversão automatica de int para double
+         * Casting implícito, fazendo a conversão automática de int para double
          */
         int numeroInt = 10;
         double numeroDouble = numeroInt;
@@ -23,17 +23,24 @@ public class Casting {
         System.out.println("Número inteiro: " + numberInt); // saída: 9, truncando a parte decimal
 
         /**
-         * Casting de inteiro para string
-         *
-         * 10 ==> '10'
+         * Casting de inteiro para String.
+         * Podemos utilizar a classe Integer e seu método .toString(), ou o método String.valueOf(),
+         * que também converte o número para String.
          */
-        Integer numeroInteiro = 10;
-        String numeroInteiroParaString = numeroInteiro.toString();
+        int numeroInteiro = 10;
+        String numeroInteiroParaString = Integer.toString(numeroInteiro); // Usando Integer.toString()
+        String numeroInteiroParaString2 = String.valueOf(numeroInteiro); // Alternativa usando String.valueOf()
+
+        System.out.println(numeroInteiroParaString); // Saída: "10"
+        System.out.println(numeroInteiroParaString2); // Saída: "10"
 
         System.out.println("Número inteiro para String: " + numeroInteiroParaString);
 
         /**
-         * Casting em operações matemáticas
+         * Casting em operações matemáticas.
+         *
+         * Quando dividimos dois números inteiros em Java, o resultado também será um número inteiro.
+         * Para obter um resultado com casas decimais, devemos converter pelo menos um dos valores para double.
          */
         int a = 5;
         int b = 2;
@@ -45,7 +52,8 @@ public class Casting {
         /**
          * Casting entre tipos de caracteres.
          *
-         * Também é possível converter entre char e int, pois os caracteres possuem um valor numérico na tabela ASCII.
+         * Caracteres (`char`) são internamente armazenados como valores numéricos baseados na tabela ASCII ou Unicode.
+         * Assim, podemos convertê-los diretamente para `int` e obter seu valor correspondente.
          * Exemplo: 'A' → 65, 'B' → 66, 'C' → 67.
          */
         char letra = 'A';
@@ -61,7 +69,7 @@ public class Casting {
         int[] numerosInt = new int[numerosDouble.length]; // Criando um array de int com o mesmo tamanho
 
         System.out.println("Array double: " + Arrays.toString(numerosDouble));
-        System.out.println("Array int: " + Arrays.toString(numerosInt)); // [0, 0, 0, 0, 0]
+        System.out.println("Array int antes da conversão: " + Arrays.toString(numerosInt)); // [0, 0, 0, 0, 0]
 
         /**
          * Convertendo cada número de double para int, fazendo um casting explícito e truncando os valores (removendo a parte decimal de um número)
