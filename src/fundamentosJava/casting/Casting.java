@@ -23,6 +23,16 @@ public class Casting {
         System.out.println("Número inteiro: " + numberInt); // saída: 9, truncando a parte decimal
 
         /**
+         * Casting de inteiro para string
+         *
+         * 10 ==> '10'
+         */
+        Integer numeroInteiro = 10;
+        String numeroInteiroParaString = numeroInteiro.toString();
+
+        System.out.println("Número inteiro para String: " + numeroInteiroParaString);
+
+        /**
          * Casting em operações matemáticas
          */
         int a = 5;
