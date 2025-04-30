@@ -1,4 +1,4 @@
-package ii.fundamentos.casting;
+package fundamentos.casting;
 
 import java.util.Scanner;
 
