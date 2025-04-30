@@ -50,16 +50,17 @@ Primeiro argumento: Olá
 Um **package** (pacote) é um agrupamento de classes relacionadas. Ele ajuda a organizar o código.
 
 #### 📝 Exemplo de uso de `package`:
+
 ```java
-package fundamentosJava;
+package fundamentos;
 
 public class EstruturaBasica {
     public static void main(String[] args) {
-        System.out.println("Este código pertence ao pacote fundamentosJava");
+        System.out.println("Este código pertence ao pacote fundamentos");
     }
 }
 ```
-💡 O arquivo deve estar dentro de **src/fundamentosJava/** para que funcione corretamente.
+💡 O arquivo deve estar dentro de **src/fundamentos/** para que funcione corretamente.
 
 ---
 
@@ -69,9 +70,9 @@ Se quisermos **usar uma classe de outro pacote**, precisamos **importá-la**.
 #### 📝 Exemplo: Importando uma classe de outro pacote
 
 ```java
-package fundamentosJava;
+package fundamentos;
 
-import fundamentosJava.tiposPrimitivos.TiposPrimitivos; // Importando uma classe de outro pacote
+import tiposPrimitivos.II.fundamentos.TiposPrimitivos; // Importando uma classe de outro pacote
 
 public class TesteImport {
     public static void main(String[] args) {
@@ -97,11 +98,11 @@ Seus arquivos ficariam assim:
 ```
 learning-java/
 │── src/
-│   ├── fundamentosJava/       ✅ (Nova pasta)
+│   ├── fundamentos/       ✅ (Nova pasta)
 │   │   ├── README.md          ✅ (Explicação sobre conceitos básicos)
 │   │   ├── EstruturaBasica.java
 │   │   ├── TesteImport.java
-│   ├── fundamentosJava.tiposPrimitivos/
+│   ├── fundamentos.tiposPrimitivos/
 │   ├── operadoresAritmeticos/
 │
 │── README.md  ✅ (Guia geral do projeto)

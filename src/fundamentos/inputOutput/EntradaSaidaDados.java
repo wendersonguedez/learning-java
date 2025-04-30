@@ -1,4 +1,4 @@
-package fundamentosJava.io;
+package ii.fundamentos.inputOutput;
 
 import java.util.Scanner;
 

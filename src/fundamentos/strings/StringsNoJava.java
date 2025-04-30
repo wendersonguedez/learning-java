@@ -1,4 +1,4 @@
-package fundamentosJava.strings;
+package ii.fundamentos.strings;
 
 public class StringsNoJava {
     public static void main(String[] args) {

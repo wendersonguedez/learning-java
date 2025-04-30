@@ -1,4 +1,4 @@
-package fundamentosJava.tiposPrimitivos;
+package ii.fundamentos.tiposPrimitivos;
 
 public class TiposPrimitivos {
      public static void main(String[] args) {

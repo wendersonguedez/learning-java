@@ -1,4 +1,4 @@
-package fundamentosJava.operadoresAritmeticos;
+package ii.fundamentos.operadoresAritmeticos;
 import java.util.Scanner;
 
 public class OperadoresAritmeticos {
