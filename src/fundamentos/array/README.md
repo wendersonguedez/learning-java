@@ -23,4 +23,4 @@
 # Links Úteis
 - [Tutorial oficial de Arrays em Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
 - [Guia sobre Arrays no Baeldung](https://www.baeldung.com/java-arrays-guide)
-- Artigo sobre Arrays no GeeksforGeeks
+- [Artigo sobre Arrays no GeeksforGeeks](https://www.geeksforgeeks.org/arrays-in-java/?ref=lbp)
