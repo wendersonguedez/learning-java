@@ -2,7 +2,7 @@
 
 Este projeto contém meus estudos sobre Java, divididos em diferentes tópicos:
 
-- 📖 [Conceitos básicos do Java](src/fundamentosJava/README.md)
+- 📖 [Conceitos básicos do Java](src/fundamentos/README.md)
 - 🔢 [Tipos Primitivos](src/tiposPrimitivos/README.md)
 - 🏗️ [Estruturas de Controle](src/estruturasDeControle/README.md)
 - 🛠️ [Funções e Métodos](src/funcoes/README.md)
@@ -11,7 +11,7 @@ Este projeto contém meus estudos sobre Java, divididos em diferentes tópicos:
 
 ## 📌 Tópicos de Estudo
 
-- 📖 **[Fundamentos do Java](src/fundamentosJava/README.md)**  
+- 📖 **[Fundamentos do Java](src/fundamentos/README.md)**  
   Conceitos básicos como `main`, `package` e `import`.
 
 - 🔢 **[Tipos Primitivos](src/tiposPrimitivos/README.md)**  
