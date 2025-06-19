@@ -4,12 +4,12 @@ import java.util.Arrays;
 
 public class ArraySimples {
     public static void main(String[] args) {
-        // criandoArray();
+        criandoArray();
         // iterandoArrayComFor();
         // iterandoArrayComForeach();
         //procurandoElementoNoArray();
         // mediaDeDiferentesIdades();
-        menorIdade();
+        // menorIdade();
     }
 
     public static void criandoArray() {
@@ -37,6 +37,14 @@ public class ArraySimples {
         System.out.println(numeros[0]); // 10
         System.out.println(alunos[2]); // null
         System.out.println(alunos[1]); // wend
+
+        /**
+         * Redeclarando array
+         *
+         * Ao redeclarar o array, os valores anteriores são perdidos.
+         */
+        alunos = new String[4];
+        System.out.println(alunos[1]);
     }
 
     public static void iterandoArrayComFor() {
