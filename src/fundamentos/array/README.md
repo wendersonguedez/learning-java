@@ -20,7 +20,24 @@
 - Limitações: O tamanho dos arrays é fixo e não pode ser alterado após a sua criação. Para manipulação dinâmica de
   coleções de dados, outras estruturas como `ArrayList` podem ser mais adequadas.
 
+# Introdução ao Garbage Collection
+
+Garbage Collection (GC) é o processo automático de gerenciamento de memória, onde objetos que não estão mais em uso, são 
+removidos da memória. Isso ajuda a evitar vazamentos de memória.
+
+O Garbage Collector monitora objetos que não têm mais referências ativas e os limpa da memória.
+
+```java
+ // Exemplo de objeto não mais referenciado:
+MinhaClasse obj = new MinhaClasse();
+obj = null;  // O objeto anterior é agora elegível para GC
+```
+
+O Garbage Collection é especialmente importante em linguagens como Java e C#, onde a memória é gerenciada automaticamente.
+
 # Links Úteis
 - [Tutorial oficial de Arrays em Java](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/arrays.html)
 - [Guia sobre Arrays no Baeldung](https://www.baeldung.com/java-arrays-guide)
 - [Artigo sobre Arrays no GeeksforGeeks](https://www.geeksforgeeks.org/arrays-in-java/?ref=lbp)
+- [W3Schools - Arrays em Java](https://www.w3schools.com/java/java_arrays.asp)
+- [GeeksforGeeks - Garbage Collection em Java](https://www.geeksforgeeks.org/java/garbage-collection-in-java/)
