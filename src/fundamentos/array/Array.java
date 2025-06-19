@@ -2,7 +2,7 @@ package fundamentos.array;
 
 import java.util.Arrays;
 
-public class ArraySimples {
+public class Array {
     public static void main(String[] args) {
         criandoArray();
         // iterandoArrayComFor();
