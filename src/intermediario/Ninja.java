@@ -1,4 +1,4 @@
-package intermediario.classesEObjetos;
+package intermediario;
 
 public class Ninja {
     String name;
