@@ -21,5 +21,12 @@ public class Main {
 
         int quantoTempoFaltaParaSerHokage = NarutoObj.anosParaSeTornarHokage(50);
         System.out.println("Seu nome é " + NarutoObj.name + " e faltam " + quantoTempoFaltaParaSerHokage + " anos para você ser hokage!");
+
+        Boruto BorutoObj = new Boruto();
+        BorutoObj.name = "Boruto Hyuga Uzumaki";
+        BorutoObj.village = "Aldeia da folha";
+        BorutoObj.ModoSabioAtivado();
+        BorutoObj.AtivarOKarma();
+        System.out.println(BorutoObj.name);
     }
 }
