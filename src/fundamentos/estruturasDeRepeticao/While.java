@@ -6,8 +6,8 @@ public class While {
     public static void main(String[] args) {
         // contadorDecrescente();
         // System.out.println("----------------------");
-        contadorCrescente();
-        //validaSenha();
+        // contadorCrescente();
+        validaSenha();
     }
 
     public static void contadorDecrescente() {
