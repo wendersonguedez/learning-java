@@ -13,6 +13,8 @@ public class Main {
         SasukeObj.age = 21;
         SasukeObj.name = "Sasuke Uchiha";
         SasukeObj.SharinganAtivado();
+        String myCla = SasukeObj.OqueEuSou();
+        System.out.println(myCla);
 
         /*
         * Fazendo o mesmo, mas agora criando o ninja Naruto.
